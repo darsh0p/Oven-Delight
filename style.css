@@ -390,23 +390,25 @@ h1.headline {
 
 .category .box-container .box{
     text-align:center;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    border:0.1rem solid rgba(0,0,0,0.7);
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7); */
+
 }
 
 .category .box-container .box img{
     height:15rem;
-    width:21rem;
+    width:15rem;
+    border-radius: 50%;
 }
 
 .category .box-container .box h3{
     font-size: 2rem;
     margin: 1rem 0;
-    color: #222;
+    color:  #fff;
 }
 
 .category .box-container .box:hover h3{
-    color: #fff;
+    color:#e1b164;
 }
 
 .products .box-container {
