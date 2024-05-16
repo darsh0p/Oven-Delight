@@ -52,13 +52,14 @@ section{
 }
 
 .heading{
-    background: url("img/heading-bg.jpg") no-repeat;
+    background-color: #00000098;
     background-size:cover;
     background-position: center;
     text-align: center;
     padding-top: 12rem;
     padding-bottom: 8rem;
-    border-bottom: 0.1rem solid rgb(255, 255, 255);
+    /* border-bottom: 0.1rem solid rgb(0, 0, 0);
+    border-top: 0.1rem solid rgb(255, 255, 255); */
 }
 
 .heading h1{
@@ -72,7 +73,7 @@ section{
     font-size: 2.5rem;
     margin-bottom:3rem;
     padding:1.2rem 0;
-    border-bottom: 0.1rem solid rgba(0,0,0,0.7);
+    border-bottom: 0.1rem solid #e1b164 ;
     color: #fff;
 }
 
@@ -410,7 +411,7 @@ h1.headline {
 
 .category .box-container .box img {
     height: 15rem;
-    width: 15rem;
+    width: 100%;
     border-radius: 50%;
     transition: transform 0.3s ease; 
 }
@@ -432,12 +433,13 @@ h1.headline {
     background: #f3f3f3;
     text-align: center;
     overflow: hidden;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    border:0.1rem solid rgba(0,0,0,0.7);
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7); */
   }
 
 .products .box-container .box:hover  .icons{
     top: 0;
+    z-index: 1;
 }
 
   .products .box-container .box .icons {
@@ -451,8 +453,9 @@ h1.headline {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(243, 243, 243, 0.8);
+    background:  #00000098;
     gap: 1rem;
+    z-index: -1;
   }
 
   .products .box-container .box .icons a {
@@ -461,18 +464,17 @@ h1.headline {
     width: 5rem;
     line-height: 5rem;
     background: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    color: #666;
+    color: #000000;
   }
 
 .products .box-container .box .icons a:hover{
-    background: var(--brown);
+    background:#e1b164;
     color:#fff;
 }
 
   .products .box-container .box .img {
     height:15rem;
-    width:27rem;
+    width:100%
     overflow: hidden;
   }
 
