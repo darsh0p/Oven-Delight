@@ -29,7 +29,7 @@
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background:var(--brown);
+    background:#e1b164;
     color:#fff;
     font-size:1.7rem;
     cursor: pointer;
@@ -37,7 +37,8 @@
     border:0.1rem solid rgba(0,0,0,0.7);
 }
 .btn:hover{
-    background: #222;
+    background: #ffffff;
+    color:#e1b164;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
 }
 
@@ -848,7 +849,7 @@ h1.headline {
 .contact .row form h3{
     font-size: 2.5rem;
     padding-bottom: 1rem;
-    color: #222;
+    color: #e1b164;
 }
 
 .contact .row form .inputBox{
@@ -883,10 +884,7 @@ h1.headline {
     min-height: 10vh;
 }
 
-.footer{
-    background:var(--brown);
 
-}
 
 .footer .box-container{
     display: grid;
@@ -897,34 +895,35 @@ h1.headline {
 
 .footer .box-container .box h3{
     font-size: 2.2rem;
-    color: #222;
+    color: #e1b164;
     padding:1rem 0;
 }
 
 .footer .box-container .box p{
     font-size: 1.5rem;
-    color: #000;
+    color: #e1b164;
     padding-bottom: .5rem;
 }
 
 .footer .box-container .box a{
     font-size: 1.4rem;
-    color: #000;
+    color: #ffffff;
     padding:1rem 0;
     display:block;
 }
 
 .footer .box-container .box a:hover{
-    color: #fff;
+    color: #e1b164;
 }
 
 .footer .box-container .box a:hover i{
     padding-right: 2rem;
+    color:#e1b164;
 }
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color: #000;
+    color: #ffffff;
 }
 
 .footer .box-container .box form input[type="email"]{
@@ -944,8 +943,7 @@ h1.headline {
 
 .credit{
     text-align: center;
-    background:var(--brown);
-    color: #000;
+    color: #ffffff;
     font-size:2rem;
 }
 
