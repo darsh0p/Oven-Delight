@@ -621,7 +621,7 @@ h1.headline {
     background: #fff;
 }
 .info-container .info:hover{
-    background: var(--brown);
+    background: transparent;
 }
 
 .info-container .info img{
@@ -637,6 +637,14 @@ h1.headline {
 .info-container .info .content span{
     font-size: 1.5rem;
     color: #222;
+}
+
+.info-container .info .content:hover h3{
+    color: #ffffff;
+}
+
+.info-container .info .content:hover span{
+    color: #ffffff;
 }
 
 .review{
@@ -666,7 +674,7 @@ h1.headline {
 
 .review .box .user h3{
     font-size: 2.2rem;
-    color:#222;
+    color:#e1b164;
 }
 
 .review .box .user span{
@@ -676,7 +684,7 @@ h1.headline {
 
 .review .box p{
     font-size: 1.4rem;
-    color:#222;
+    color:#ffffff;
     line-height: 2;
 }
 
