@@ -766,19 +766,38 @@ h1.headline {
     width:6rem;
     line-height: 6rem;
     font-size: 2.5rem;
-    background: var(--brown);
     color:#fff;
     border-radius: 50%;
 }
 
 .contact .icons-container .icons h3{
-    color:#222;
+    color:#ffffff;
     font-size: 2rem;
     padding:1rem 0;
 }
 
+.contact .icons-container .icons:hover i {
+    
+    color: #e1b164 ; 
+    animation: ring 0.5s linear infinite;
+}
+
+.contact .icons-container .icons:hover h3 {
+    color: #e1b164 ; 
+}
+
+@keyframes ring {
+    0% { transform: rotate(0); }
+    10% { transform: rotate(15deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(5deg); }
+    40% { transform: rotate(-5deg); }
+    50% { transform: rotate(0); }
+    100% { transform: rotate(0); }
+}
+
 .contact .icons-container .icons p{
-    color:#222;
+    color:#ffffff;
     font-size: 1.5rem;
     line-height: 2;
 }
