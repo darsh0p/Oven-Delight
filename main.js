@@ -5,12 +5,12 @@ gsap.to(".header", {
     scrollTrigger: {
       trigger: ".header",
       scroller: "body",
-      // markers:true,
       start: "top -10%",
       end: "top -11%",
-      scrub: 1,
+      scrub: 0.01,
     },
   });
+
   
 
 let navbar = document.querySelector('.navbar');
